@@ -25,7 +25,6 @@ if($rows > 0){
     echo '<script> alert("LOGGED IN) </script>';
 }
 else{
-    echo '<script> alert("Invald Credentials") </script>';
     header("Location: home.html");
 }    
 
