@@ -25,7 +25,7 @@ if($rows > 0){
     echo '<script> alert("LOGGED IN) </script>';
 }
 else{
-    header("Location: home.html");
+    header("Location: http://127.0.0.1:5500/home.html");
 }    
 
 ?>
