@@ -4,7 +4,7 @@ $host = "localhost";
 $user = "root";
 $pass = "";
 $db = "users";
-$table = "login";
+$table = "credentials";
 
 $con = new mysqli($host,$user,$pass,$db);
 
@@ -22,7 +22,7 @@ $rows = mysqli_num_rows($result);
 
 if($rows > 0){
     echo '<h2>Welcome</h2>';
-    echo '<script> alert("LOGGED IN) </script>';
+    echo '<script> alert("Welcome) </script>';
 }
 else{
     header("Location: http://127.0.0.1:5500/home.html");
