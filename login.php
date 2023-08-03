@@ -22,7 +22,7 @@ $rows = mysqli_num_rows($result);
 
 if($rows > 0){
     echo '<h2>Welcome</h2>';
-    echo '<script> alert("Welcome) </script>';
+    echo '<script> alert("You are now logged in") </script>';
 }
 else{
     header("Location: http://127.0.0.1:5500/home.html");
